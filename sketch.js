@@ -13,14 +13,14 @@ function setup() {
  // World.add(world,rect1);
 
 
-  speed=random(50,90)
-  drop = new Rain(200,0);
-  drop.velocityY=speed;
+  //speed=random(50,90)
+ // drop = new Rain(200,0);
+ // drop.velocityY=speed;
 }
 
 function draw() {
   background(0);  
   Engine.update(engine)
- /drop.display();
+ //drop.display();
   drawSprites();
 }
