@@ -24,6 +24,6 @@ function draw() {
   drawSprites();
 }
 
-async function rain(){
-  await t.push(new Rain(random(10,width-50),20));
+ function rain(){
+   t.push(new Rain(random(10,width-50),20));
 }
