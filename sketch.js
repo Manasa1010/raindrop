@@ -16,7 +16,8 @@ function draw() {
   Engine.update(engine);
 
   rain();
-
+  rain1();
+  rain2();
   for(k=0 ; k<t.length; k++){
     t[k].display();
   }
@@ -26,4 +27,12 @@ function draw() {
 
  function rain(){
    t.push(new Rain(random(10,width-50),20));
+  
+}
+function rain1(){
+  t.push(new Rain1(random(10,width-50),20));
+ 
+}
+function rain2(){
+  t.push(new Rain2(random(10,width-50),20))
 }
